@@ -1,0 +1,16 @@
+# Development only — in production, ChromaDB and Redis run on Railway
+services:
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma-data:/chroma/chroma
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  chroma-data:
