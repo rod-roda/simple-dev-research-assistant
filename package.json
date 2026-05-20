@@ -26,6 +26,7 @@
     "rehype-highlight": "^7.0.2",
     "remark-gfm": "^4.0.1",
     "resend": "^6.12.3",
+    "tsx": "^4.22.3",
     "zod": "^4.4.3"
   },
   "devDependencies": {
@@ -36,7 +37,6 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
-    "tsx": "^4.22.3",
     "typescript": "^5"
   }
 }
