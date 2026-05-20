@@ -5,5 +5,5 @@ import { sendDigest } from "./send-digest";
 export const tools = {
   webSearch,
   saveToNotion,
-  sendDigest,
+  //sendDigest,
 };
